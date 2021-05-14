@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {    
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+button:hover,
+button:focus {
+    opacity: .8;    
+}
+
+button:active {
+    opacity: 1;
+}
+
+button:disabled {
+    opacity: .3;
+    cursor:not-allowed;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
